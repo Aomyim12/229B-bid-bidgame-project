@@ -48,4 +48,5 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("Player ตายแล้ว!");
         // ระบบเกมเพิ่มเติมที่คุณอยากให้เกิดขึ้นเมื่อ player ตาย เช่น แสดง UI ว่า Player ตาย หรือ เริ่มเกมใหม่
     }
+    
 }
