@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BallController : MonoBehaviour
 {
@@ -19,16 +20,20 @@ public class BallController : MonoBehaviour
     void Update()
     {
         // เคลื่อนที่ซ้ายขวาและขึ้นลง
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
-        Vector3 movement = new Vector3(horizontalInput, 0, verticalInput) * moveSpeed * Time.deltaTime;
-        rb.MovePosition(rb.position + movement);
+        float horizontalInput = Input.GetAxis("Horizontal"); // รับข้อมูลการกดปุ่มซ้าย-ขวา
+
+        // เคลื่อนที่วัตถุซ้าย-ขวาตามการกดปุ่ม
+        transform.Translate(Vector3.right * horizontalInput * moveSpeed * Time.deltaTime);
 
         // กระโดด
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isGrounded = false;
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ResetScene();
         }
     }
 
@@ -39,6 +44,11 @@ public class BallController : MonoBehaviour
         {
             isGrounded = true;
         }
+    }
+    public void ResetScene()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(currentSceneIndex);
     }
 }
 
