@@ -8,6 +8,7 @@ TagManager:
   - Trap
   - ColliderSensor
   - Button
+  - Die
   layers:
   - Default
   - TransparentFX

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,6 +29,10 @@ public class PlayerHealth : MonoBehaviour
         {
             TakeDamage(20);
         }
+        if (collision.gameObject.CompareTag("Die"))
+        {
+            TakeDamage(100);
+        }
     }
 
     
@@ -51,6 +56,7 @@ public class PlayerHealth : MonoBehaviour
     // ฟังก์ชันสำหรับการตายของ player
     void Die()
     {
+
         Debug.Log("Player ตายแล้ว!");
         // ระบบเกมเพิ่มเติมที่คุณอยากให้เกิดขึ้นเมื่อ player ตาย เช่น แสดง UI ว่า Player ตาย หรือ เริ่มเกมใหม่
     }
