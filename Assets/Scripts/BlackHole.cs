@@ -4,30 +4,30 @@ using UnityEngine;
 
 public class BlackHole : MonoBehaviour
 {
-    private float gravitationalConstant = 6.674f; // ��Ҥ�������
-    [SerializeField] private float blackHoleMass ; // ��Ţͧ������
-    [SerializeField] private float maxDistance ; // ���зҧ�٧�ش����觼ŵ�͡�ôٴ
+    private float gravitationalConstant = 6.674f; // ค่าคงที่แกรว
+    [SerializeField] private float blackHoleMass ; // มวลของหลุมดำ
+    [SerializeField] private float maxDistance ; // ระยะทางสูงสุดที่ส่งผลต่อการดูด
 
     void Update()
     {
-        // ���ѵ�ط����������շ���˹�
+        // หาวัตถุทั้งหมดในรัศมีที่กำหนด
         Collider[] colliders = Physics.OverlapSphere(transform.position, maxDistance);
 
-        // ���ҧ�ç�֧�ٴ���Ѻ�ѵ�ط�����
+        // สร้างแรงดึงดูดให้กับวัตถุทั้งหมด
         foreach (Collider collider in colliders)
         {
             if (collider.attachedRigidbody != null)
             {
                 Rigidbody rb = collider.attachedRigidbody;
 
-                // �ӹǳ��ȷҧ���������ҧ�����ҧ�ѵ�ءѺ������
+                // คำนวณทิศทางและระยะห่างระหว่างวัตถุกับหลุมดำ
                 Vector3 direction = transform.position - rb.position;
                 float distance = direction.magnitude;
 
-                // �ӹǳ�ç�֧�ٴ�������ǵѹ
+                // คำนวณแรงดึงดูดตามกฎนิวตัน
                 float forceMagnitude = gravitationalConstant * blackHoleMass * rb.mass / (distance * distance);
 
-                // ���ç�֧�ٴ�Ѻ�ѵ��
+                // ใช้แรงดึงดูดกับวัตถุ
                 rb.AddForce(direction.normalized * forceMagnitude * Time.deltaTime);
             }
         }
