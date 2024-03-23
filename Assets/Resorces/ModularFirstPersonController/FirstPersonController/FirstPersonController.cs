@@ -362,6 +362,7 @@ public class FirstPersonController : MonoBehaviour
         {
             HeadBob();
         }
+
     }
 
     void FixedUpdate()
