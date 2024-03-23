@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class BlackHole : MonoBehaviour
 {
-    public float gravitationalConstant = 6.674f; // ค่าคงที่แกรว
-    public float blackHoleMass = 1000f; // มวลของหลุมดำ
-    public float maxDistance = 10f; // ระยะทางสูงสุดที่ส่งผลต่อการดูด
+    private float gravitationalConstant = 6.674f; // ค่าคงที่แกรว
+    [SerializeField] private float blackHoleMass ; // มวลของหลุมดำ
+    [SerializeField] private float maxDistance ; // ระยะทางสูงสุดที่ส่งผลต่อการดูด
 
     void Update()
     {
