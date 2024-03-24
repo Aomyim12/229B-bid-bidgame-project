@@ -7,7 +7,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
     public int currentHealth;
-
+    [SerializeField] private GameObject YouDie;
     public HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -56,6 +56,7 @@ public class PlayerHealth : MonoBehaviour
     // ฟังก์ชันสำหรับการตายของ player
     void Die()
     {
+        YouDie.SetActive(true);
 
         Debug.Log("Player ตายแล้ว!");
         // ระบบเกมเพิ่มเติมที่คุณอยากให้เกิดขึ้นเมื่อ player ตาย เช่น แสดง UI ว่า Player ตาย หรือ เริ่มเกมใหม่
