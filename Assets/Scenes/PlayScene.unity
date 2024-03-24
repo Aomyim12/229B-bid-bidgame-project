@@ -6159,10 +6159,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hamzee Samama 1650706490 No.31 \n\n\nHamzee Samama 1650706490 No.31 \nSatetanun
-    Phrominthara 1650705575 No24\n\n\nHamzee Samama 1650706490 No.31 \n\n\nHamzee
-    Samama 1650706490 No.31 \n\n\n\nHamzee Samama 1650706490 No.31 \nSatetanun Phrominthara
-    1650705955 No27\n\nRatapum Phonganan 1650705955 No27\n\n\nJustCreate\n\n\n\nJeCase"
+  m_text: "Hamzee Samama 1650706490 No.31 sec229B \n\n\nHamzee Samama 1650706490
+    No.31 sec229B \nSatetanun Phrominthara 1650705575 No.24 sec229B \n\n\nHamzee
+    Samama 1650706490 No.31 sec229B \n\n\nHamzee Samama 1650706490 No.31 sec229B
+    \n\n\n\nHamzee Samama 1650706490 No.31 sec229B \nSatetanun Phrominthara 1650705955
+    No.24 sec229B \n\nRatapum Phonganan 1650705955 No.27 sec229B \n\n\n\n\nJustCreate\n\n\n\nJeCase"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -10223,7 +10224,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Project Manager\n\n\nProgrammer\n\n\n\nDesigner\n\n\nSound\n\n\n\nUX/UI\n\n\nVDO
-    Demo Game\n\n\nLow Poly Dungeons Lite \n\n\nModular First Person Controller"
+    Demo Game\n\n\n\n\nLow Poly Dungeons Lite \n\n\nModular First Person Controller"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -20669,7 +20670,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81, y: -722.99994}
+  m_AnchoredPosition: {x: -14.458, y: -1124}
   m_SizeDelta: {x: 391.9759, y: 136.6769}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1931637589
