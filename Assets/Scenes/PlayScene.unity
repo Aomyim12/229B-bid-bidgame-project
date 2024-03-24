@@ -6159,42 +6159,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hamzee Samama
-
-
-
-    Hamzee Samama
-
-    Satetanun Phrominthara
-
-
-
-    Hamzee
-    Samama
-
-
-
-    Hamzee Samama
-
-
-
-
-    Hamzee Samama
-
-    Satetanun Phrominthara
-
-
-    Ratapum
-    Phonganan
-
-
-
-    JustCreate
-
-
-
-
-    JeCase'
+  m_text: "Hamzee Samama 1650706490 No.31 \n\n\nHamzee Samama 1650706490 No.31 \nSatetanun
+    Phrominthara 1650705575 No24\n\n\nHamzee Samama 1650706490 No.31 \n\n\nHamzee
+    Samama 1650706490 No.31 \n\n\n\nHamzee Samama 1650706490 No.31 \nSatetanun Phrominthara
+    1650705955 No27\n\nRatapum Phonganan 1650705955 No27\n\n\nJustCreate\n\n\n\nJeCase"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
@@ -6257,7 +6225,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -75.79285, w: 0}
+  m_margin: {x: 0, y: 0, z: -396.44202, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -11872,7 +11840,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1034986483
 RectTransform:
   m_ObjectHideFlags: 0
