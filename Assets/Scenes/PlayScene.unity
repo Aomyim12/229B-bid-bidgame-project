@@ -6063,8 +6063,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 180.83807, y: -590.99884}
-  m_SizeDelta: {x: 332.33, y: 1080}
+  m_AnchoredPosition: {x: 183.54596, y: -590.99884}
+  m_SizeDelta: {x: 337.7458, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &587986861
 MonoBehaviour:
@@ -6092,10 +6092,7 @@ MonoBehaviour:
 
     Hamzee Samama
 
-
-
-
-    Hamzee Samama
+    Satetanun Phrominthara
 
 
 
@@ -6103,6 +6100,19 @@ MonoBehaviour:
     Samama
 
 
+
+    Hamzee Samama
+
+
+
+
+    Hamzee Samama
+
+    Satetanun Phrominthara
+
+
+    Ratapum
+    Phonganan
 
 
 
@@ -6174,7 +6184,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -75.79285, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -10065,8 +10075,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Project Manager\n\n\nProgrammer\n\n\n\nDesigner\n\n\nSound\n\n\n\n\nLow
-    Poly Dungeons Lite \n\n\nModular First Person Controller"
+  m_text: "Project Manager\n\n\nProgrammer\n\n\n\nDesigner\n\n\nSound\n\n\n\nUX/UI\n\n\nVDO
+    Demo Game\n\n\nLow Poly Dungeons Lite \n\n\nModular First Person Controller"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
