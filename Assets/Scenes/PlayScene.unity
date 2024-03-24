@@ -6136,7 +6136,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 183.54596, y: -590.99884}
+  m_AnchoredPosition: {x: 206.54596, y: -590.99884}
   m_SizeDelta: {x: 337.7458, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &587986861
@@ -6226,7 +6226,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -396.44202, w: 0}
+  m_margin: {x: 0, y: 0, z: -435.92175, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8918,7 +8918,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 0
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -10200,7 +10200,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -191, y: -591}
+  m_AnchoredPosition: {x: -168, y: -591}
   m_SizeDelta: {x: 332.33, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &909247127
@@ -10450,7 +10450,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 733, y: 54}
+  m_AnchoredPosition: {x: -641, y: 61}
   m_SizeDelta: {x: -80.70941, y: -264}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &920008987
@@ -17240,7 +17240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 32.289}
+  m_AnchoredPosition: {x: -82, y: 32.289}
   m_SizeDelta: {x: 363.0605, y: 363.0605}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1508582321
@@ -21005,7 +21005,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
+    rgba: 0
   m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
