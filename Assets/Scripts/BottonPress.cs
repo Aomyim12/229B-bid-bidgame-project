@@ -6,13 +6,19 @@ public class BottonPress : MonoBehaviour
 {
     public ObjectExplosion[] objectsToExplode; // วัตถุที่ต้องการให้ระเบิดเมื่อกดปุ่ม
     [SerializeField] private bool hasWon = false;
+    [SerializeField] private bool hasLose = false;
     [SerializeField] private GameObject YouWin;
+    [SerializeField] private GameObject YouDie;
 
     private void OnMouseUpAsButton()
     {
-        if (hasWon) // ตรวจสอบว่ายังไม่เคยชนะ
+        if (hasWon) 
         {
-            WinGame(); // เรียกใช้เมทอดเพื่อประกาศชนะ
+            WinGame(); 
+        }
+        if (hasLose) 
+        {
+            LoseGame(); 
         }
         // วนลูปผ่านวัตถุที่ต้องการให้ระเบิดทั้งหมด
         foreach (ObjectExplosion obj in objectsToExplode)
@@ -31,5 +37,11 @@ public class BottonPress : MonoBehaviour
         hasWon = false; // ตั้งค่าเป็น true เมื่อชนะ เพื่อป้องกันการชนะซ้ำ
 
     }
+    private void LoseGame()
+    {
+        Debug.Log("แพ้"); 
+        YouDie.SetActive(true);
+        hasWon = false; 
 
+    }
 }

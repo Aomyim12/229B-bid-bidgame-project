@@ -10,6 +10,7 @@ public class Menu : MonoBehaviour
 
     void Start()
     {
+
         // รับ Component ของปุ่ม Play
         Button playButton = GameObject.Find("PlayButton").GetComponent<Button>();
 
